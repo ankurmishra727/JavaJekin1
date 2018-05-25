@@ -1,1 +1,4 @@
-print "Hello run on jenkins"
+import socket
+
+hostname = socket.gethostname()
+print hostname
